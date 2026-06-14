@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.env
+.vscode/
+.idea/
+
+# Data and uploads
+data/uploads/*
+!data/uploads/.gitkeep
+models/*.onnx
+models/*.pt
